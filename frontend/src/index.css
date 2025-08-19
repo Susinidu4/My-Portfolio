@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Define a utility so `font-orbitron` always works, regardless of Tailwind version */
+@layer utilities {
+  .font-orbitron {
+    font-family: "Orbitron", sans-serif;
+  }
+}
