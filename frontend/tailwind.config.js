@@ -5,12 +5,13 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        orbitron: ["Orbitron", "sans-serif"], 
-      },
+  extend: {
+    fontFamily: {
+      orbitron: ["Orbitron", "sans-serif"],
     },
   },
+}
+,
   plugins: [],
 }
 import './index.css'
