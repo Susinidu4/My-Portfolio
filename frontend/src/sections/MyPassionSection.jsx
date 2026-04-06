@@ -1,23 +1,23 @@
 import mypassionimg from "../assets/mypassion_section.jpg";
 import { useState, useEffect } from "react";
 
-import passion1 from "../assets/passion/passion_1.1.jpg";
-import passion2 from "../assets/passion/passion_1.2.jpg";
-import passion3 from "../assets/passion/passion_2.2.jpg";
-import passion4 from "../assets/passion/passion_3.1.jpg";
-import passion5 from "../assets/passion/passion_3.2.jpg";
-import passion6 from "../assets/passion/passion_4.1.jpg";
-import passion7 from "../assets/passion/passion_4.2.jpg";
-import passion8 from "../assets/passion/passion_5.1.jpg";
-import passion9 from "../assets/passion/passion_5.2.jpg";
-import passion10 from "../assets/passion/passion_6.1.jpg";
-import passion11 from "../assets/passion/passion_6.2.jpg";
-import passion12 from "../assets/passion/passion_7.jpg";
-import passion13 from "../assets/passion/passion_8.jpg";
-import passion14 from "../assets/passion/passion_9.jpg";
-import passion15 from "../assets/passion/passion_10.1.jpg";
-import passion16 from "../assets/passion/passion_10.2.jpg";
-import passion17 from "../assets/passion/passion_2.1.jpg";
+import passion1 from "../assets/Passion/passion_1.1.jpg";
+import passion2 from "../assets/Passion/passion_1.2.jpg";
+import passion3 from "../assets/Passion/passion_2.2.jpg";
+import passion4 from "../assets/Passion/passion_3.1.jpg";
+import passion5 from "../assets/Passion/passion_3.2.jpg";
+import passion6 from "../assets/Passion/passion_4.1.jpg";
+import passion7 from "../assets/Passion/passion_4.2.jpg";
+import passion8 from "../assets/Passion/passion_5.1.jpg";
+import passion9 from "../assets/Passion/passion_5.2.jpg";
+import passion10 from "../assets/Passion/passion_6.1.jpg";
+import passion11 from "../assets/Passion/passion_6.2.jpg";
+import passion12 from "../assets/Passion/passion_7.jpg";
+import passion13 from "../assets/Passion/passion_8.jpg";
+import passion14 from "../assets/Passion/passion_9.jpg";
+import passion15 from "../assets/Passion/passion_10.1.jpg";
+import passion16 from "../assets/Passion/passion_10.2.jpg";
+import passion17 from "../assets/Passion/passion_2.1.jpg";
 
 const passions = [
   { id: 1, image: passion13, thumb: passion13, accent: "#ffffff" },
