@@ -354,7 +354,7 @@ export default function HeroSection() {
             <h1 className="leading-[0.85] perspective-[800px]">
               <div className="block overflow-hidden">
                 <AnimatedWord
-                  text="SUSI"
+                  text="SUSINIDU"
                   delay={0.35}
                   charDelay={0.045}
                   className="block font-bold text-[68px] sm:text-[88px] lg:text-[112px] tracking-[0.02em] text-white"
