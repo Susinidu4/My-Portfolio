@@ -70,7 +70,7 @@ function RevealPara({ children, delay = 0 }) {
 }
 
 /* ── Horizontal marquee skill strip ── */
-const SKILLS = ["React", "Node.js", "MongoDB", "Spring Boot", "Flutter", "TypeScript", "Next.js", "Express", "PostgreSQL", "Tailwind CSS"];
+const SKILLS = ["React", "Node.js", "MongoDB", "Spring Boot", "Flutter", "AI/ML", "TypeScript", "Next.js", "Express", "PostgreSQL", "Tailwind CSS"];
 
 function SkillStrip() {
   const items = [...SKILLS, ...SKILLS];
@@ -152,7 +152,7 @@ export default function AboutSection() {
             style={{ background: "linear-gradient(135deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.04) 15%, transparent 40%)", opacity: 0.4 }}
           />
 
-          <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 p-10 sm:p-14 lg:p-16 pb-0">
+          <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 p-10 sm:p-14 lg:p-16 -mb-10">
 
             {/* LEFT column */}
             <div className="lg:col-span-5">
@@ -250,7 +250,9 @@ export default function AboutSection() {
                   <span className="text-white border-b border-white/20 pb-[1px]">
                   Sri Lanka Telecom PLC{" "}
                   </span>
-                  which I contributed to enterprise-level systems.
+                  which I contributed to enterprise-level systems. Proficient in MERN stack development, 
+                  with solid backend system skills and exposure to AI/ML-integrated applications 
+                  and cross-platform mobile development.
                 </motion.p>
 
                 <RevealPara delay={0.2}>
